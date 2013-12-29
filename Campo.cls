@@ -27,7 +27,7 @@ Public Sub Constructor(ByVal sNombre As String, ByVal sNombreTabla As String, By
     Me.setNombre sNombre
     Me.setNombreTabla sNombreTabla
     Me.setValor sValorPorDefecto
-
+'Agregamos un comentario
     
 End Sub
 
@@ -82,8 +82,7 @@ Public Function getTipoDato() As String
 End Function
 
 Public Sub setVerificador(ByVal oVerificador As IVerificador)
-    Set verificador = oVerificador
-    oVerificador.setSource Me
+	'limpiamos esto
 End Sub
 
 Public Function getVerificador() As IVerificador
