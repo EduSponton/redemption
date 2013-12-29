@@ -27,9 +27,7 @@ Public Sub Constructor(ByVal sNombre As String, ByVal sNombreTabla As String, By
     Me.setNombre sNombre
     Me.setNombreTabla sNombreTabla
     Me.setValor sValorPorDefecto
-    Me.setValorPorDefecto sValorPorDefecto
-    Me.setTipoDato sTipoDato
-    Me.setVerificador oVerificador
+
     
 End Sub
 
